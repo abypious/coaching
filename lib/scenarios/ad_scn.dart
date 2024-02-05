@@ -5,10 +5,10 @@ class ad_scn extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Page 6'),
+        title: Text('Page 4'),
       ),
       body: Center(
-        child: Text('Content for Page 6'),
+        child: Text('Content for Page 4'),
       ),
     );
   }
