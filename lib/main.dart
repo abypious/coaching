@@ -27,21 +27,21 @@ class home extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                StyledButton('Button 1', aa_scn()),
+                StyledButton('A media person', VideoApp()),
                 const SizedBox(height: 8),
-                StyledButton('Button 2', ab_scn()),
+                StyledButton('A normal person', ab_scn()),
                 const SizedBox(height: 8),
-                StyledButton('Button 3', ac_scn()),
+                StyledButton('A blind person', ac_scn()),
                 const SizedBox(height: 8),
-                StyledButton('Button 4', ad_scn()),
+                StyledButton('A aged person', ad_scn()),
                 const SizedBox(height: 8),
-                StyledButton('Button 5', ae_scn()),
+                StyledButton('A un-educated person', ae_scn()),
                 const SizedBox(height: 8),
-                StyledButton('Button 6', af_scn()),
+                StyledButton('A normal person', af_scn()),
                 const SizedBox(height: 8),
-                StyledButton('Button 7', ag_scn()),
+                StyledButton('A normal person', ag_scn()),
                 const SizedBox(height: 8),
-                StyledButton('Button 8', ah_scn()),
+                StyledButton('A normal person', ah_scn()),
               ],
             ),
           ),
@@ -74,11 +74,16 @@ class StyledButton extends StatelessWidget {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(8.0), // Set border radius
         ),
-        minimumSize: Size(double.infinity, 20),
+        minimumSize: const Size(double.infinity, 20),
       ),
       child: Text(
         buttonText,
-        style: TextStyle(fontSize: 16),
+        style: const TextStyle(
+          fontSize: 20.0,
+          fontWeight: FontWeight.w600,
+          letterSpacing: 0.1,
+          color: Colors.black,
+        ),
       ),
     );
   }
