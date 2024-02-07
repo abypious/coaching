@@ -34,7 +34,7 @@ packages:
     source: hosted
     version: "1.3.0"
   chewie:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: chewie
       sha256: "3427e469d7cc99536ac4fbaa069b3352c21760263e65ffb4f0e1c054af43a73e"
@@ -310,7 +310,7 @@ packages:
     source: hosted
     version: "2.1.4"
   video_player:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: video_player
       sha256: fbf28ce8bcfe709ad91b5789166c832cb7a684d14f571a81891858fefb5bb1c2

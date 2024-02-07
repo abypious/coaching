@@ -27,13 +27,13 @@ class home extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                StyledButton('A media person', VideoApp()),
+                StyledButton('A media person', aa_scn()),
                 const SizedBox(height: 8),
                 StyledButton('A normal person', ab_scn()),
                 const SizedBox(height: 8),
                 StyledButton('A blind person', ac_scn()),
                 const SizedBox(height: 8),
-                StyledButton('A aged person', ad_scn()),
+                StyledButton('A aged person', VideoAppad()),
                 const SizedBox(height: 8),
                 StyledButton('A un-educated person', ae_scn()),
                 const SizedBox(height: 8),
